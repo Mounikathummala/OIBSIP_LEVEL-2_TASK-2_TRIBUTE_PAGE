@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>SUSHANT SINGH RAJPUT</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            var i=0;
+            time=2000;
+            var movies=['msdhoni.jpg','Chhichhore.jpg','kedarnath.jpg','kai po che.jpg','detective-byomkesh-bakshy.jpg','dil-bechara.jpg']
+            function next()
+            {
+                document.photo.src=movies[i];
+                if(i< movies.length-1  )
+                {
+                    i++;
+                }
+                else
+                {
+                    i=0;
+                }
+                setTimeout("next()",time);
+            }
+            window.onload=next;
+        </script>
+        <style>
+            .float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+
+.float-child1 {
+    width: 40%;
+    float: left;
+    padding: 0px;
+    
+}
+p{
+    color:black;
+}
+.float-child2 {
+    width: 60%;
+    float: right;
+    padding: 20px;
+    margin-top:15px;
+    
+}  
+span{
+    color:blue;
+    font-weight:bold;
+}
+</style>
+</head>
+<body style="background-color: rgb(127, 224, 187);">
+<div class="float-container">
+    <div  class="float-child1" style="background-color: rgb(127, 224, 187);">
+        <h1 style="text-align:center;background-color: white"><b> POPULAR MOVIES</b></h1>
+       <div class="container" style="margin-top:15px;margin-left:10px;align-content: center;">
+        <img name="photo" width="500" height="700">
+       </div>
+    </div>
+       <div class="float-child2" style="background-color: rgb(127, 224, 187);">
+            <img src="sushant.jpg" style="float: right; margin-right:-15px;margin-bottom:2px;width:20%;height:20%" >
+            <p><span  >Sushant Singh Rajput </span>(21 January 1986 -14 June 2020) was born in Patna in the state of Bihar to Krishna Kumar Singh and Usha Singh.His father is a retired technical officer and worked at Bihar State Handloom Corporation in Patna.He was the youngest of five siblings and had the nickname Gulshan.One of his four sisters Mitu Singh was a state-level cricket player.He attended the St. Karen's High School in Patna.[12][13] His family moved to Delhi following his mother's death in 2002 where Rajput completed his schooling for intermediate studies in Kulachi Hansraj Model School.
+            </p>
+            <p>
+                Rajput was reportedly an avid reader who was deeply interested in astrophysics and won the National Olympiad in Physics. He secured admission in the Delhi College of Engineering to pursue a Bachelor of Engineering degree in mechanical engineering. According to Rajput, he did not have any interest in engineering but his family gave him no option which left him dissatisfied. He instead wanted to become an astronaut and later an air force pilot but was also interested in Bollywood, being a fan of Shah Rukh Khan.
+            </p>
+            <p>
+             He starred in a number of commercially successful Hindi films such as M.S. Dhoni: The Untold Story (2016), Kedarnath (2018) and Chhichhore (2019).Due to his contribution to the film industry, he received a Screen Award and was nominated for the Filmfare Awards on three occasions. He appeared on Forbes India's Celebrity 100 list twice since 2017.
+            </p>
+            <p>
+                Rajput began his acting career after dropping out of his engineering course at the Delhi College of Engineering and entering the theatre industry in Mumbai. His debut show was the romantic drama Kis Desh Mein Hai Meraa Dil (2008), followed by the lead role in the soap opera Pavitra Rishta (2009-2011). He made his film debut with the film adaptation Kai Po Che! (2013) . He followed up with his starring roles as a tourist guide in the romantic comedy Shuddh Desi Romance (2013) and the titular detective in the action thriller Detective Byomkesh Bakshy! (2015).   
+            </p>
+            <p>
+                Rajput also starred in a number of other films such as the reincarnation drama Raabta (2017), the historical drama Sonchiriya (2019) and the action thriller Drive (2019). His highest-grossing releases came with a supporting role in the satire PK (2014), and from the titular role in the sports biopic of Mahendra Singh Dhoni. For his performance in the latter, he received his first nomination for the Filmfare Award for Best Actor and became the winning nomination at the Indian Film Festival of Melbourne. Apart from acting, he was the founder of a nonprofit organisation and has been credited as the co-founder of a technological startup.
+
+                 Rajput died by suicide at his home in Bandra, Mumbai in June 2020, aged 34. His last film, Dil Bechara (2020), was released posthumously on the streaming platform Hotstar.
+            </p>
+            
+        </div>
+</div>
+</body>
+</html>
